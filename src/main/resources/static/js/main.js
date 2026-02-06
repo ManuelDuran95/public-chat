@@ -106,6 +106,9 @@ function onMessageReceived(payload) {
 
 
 function getAvatarColor(messageSender) {
+    //https://vertexaisearch .cloud .google .com/u/1/ 
+    // home/cid/b6d0a1c9-0fab-497e-9b7f-f79374cf985d/r
+    //   /session/  6046477023156550072?hl=en_US
     var hash = 0;
     for (var i = 0; i < messageSender.length; i++) {
         hash = 31 * hash + messageSender.charCodeAt(i);
